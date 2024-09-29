@@ -18,7 +18,7 @@ jobs:
       # Step 2: Add the upstream repository and fetch its latest changes
       - name: Set up upstream
         run: |
-          git remote add upstream https://github.com/is-a-dev/register.git
+          git remote add upstream https://github.com/ChrisTitusTech/ArchTitus.git
           git fetch upstream
 
       # Step 3: Merge upstream changes into your fork's main branch
